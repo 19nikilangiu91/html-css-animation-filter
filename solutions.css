@@ -95,7 +95,12 @@
 /* Esercizio 10 */
 
 .ex-10-icon{
-    transform: turn 1s rotate;
-@keyframes rotate {
-    0% {turn 1s}
+    animation-name: spin;
+    animation-duration: 1s linear infinite;
+}
+
+@keyframes spin{
+    0%{
+        transform: rotate(1turn);
+    }
 }
