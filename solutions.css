@@ -52,7 +52,7 @@
 } */
 
 .ex-5-square{
-    transition: height 2s, width 2s;
+    transition: height 5s, width 5s;
 }
 
 .ex-5-square:hover{
@@ -69,4 +69,15 @@
 
 .ex-6-img:hover{
     filter: grayscale(100%)
+} 
+
+/* Esercizio 7*/
+
+.ex-7-img{
+    transition: all 3s ease-in;
+}
+
+.ex-7-img:hover{
+    filter: blur(2px);
+    filter: sepia(3);
 } 
