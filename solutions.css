@@ -47,23 +47,20 @@
 
 /* Esercizio 5 UNCOMPLETED*/
 
-/* .col-xs-12{
-    max-height: 100%;
-} */
-
 .ex-5-square{
     transition: height 5s, width 5s;
+    transform: scale(0.5)
 }
 
 .ex-5-square:hover{
-    height: 100px;
-    width: 100px;
+     /* height: 100px;
+    width: 100px; */
 } 
 
 .ex-5-square:active{
-    height: 60px;
-    width: 60px;
-} 
+    /* height: 60px;
+    width: 60px; */
+}
 
 /* Esercizio 6*/
 
