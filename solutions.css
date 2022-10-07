@@ -45,21 +45,11 @@
     transition-duration: 5s;
 } 
 
-/* Esercizio 5 UNCOMPLETED*/
+/* Esercizio 5*/
 
 .ex-5-square{
     transition: height 5s, width 5s;
     transform: scale(0.5)
-}
-
-.ex-5-square:hover{
-     /* height: 100px;
-    width: 100px; */
-} 
-
-.ex-5-square:active{
-    /* height: 60px;
-    width: 60px; */
 }
 
 /* Esercizio 6*/
@@ -90,3 +80,15 @@
     filter: sepia(0.5);
     border-radius: 20px;
 } 
+
+/* Esercizio 9 */
+
+.ex-9-img{
+    transition: all 2s ease-in-out;
+}
+
+.ex-9-img:hover{
+    transform: scale(1.5);
+    border-radius: 5%;
+}
+
