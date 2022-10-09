@@ -104,8 +104,7 @@
 /* Esercizio 10 */
 
 .ex-10-icon{
-    animation-name: spin;
-    animation-duration: 1s linear infinite;
+    animation: spin 1s linear infinite;
 }
 
 @keyframes spin{
